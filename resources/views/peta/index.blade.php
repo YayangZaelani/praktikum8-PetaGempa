@@ -27,115 +27,115 @@
     <div id="map"></div>
 
     <script>
-        var map = L.map('map').setView([-6.354104,106.8318044], 13);
+        var map = L.map('map').setView([-2.6516006,117.2032069], 5.5);
         
-        var place = {
-        "type": "FeatureCollection",
-        "features": [
-            {
-            "type": "Feature",
-            "properties": {
-                "Kampus": "STT Terpadu Nurul Fikri B",
-                "Kota": "Depok",
-                "Alamat": "Jalan Lenteng Agung Raya No.20 RT.5/RW.1 Lenteng Agung, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12640"
-            },
-            "geometry": {
-                "coordinates": [
-                106.83268002101073,
-                -6.3528667632693185
-                ],
-                "type": "Point"
-            }
-            },
-            {
-            "type": "Feature",
-            "properties": {
-                "Kampus": "STT Terpadu Nurul Fikri A",
-                "Kota": "Depok",
-                "Alamat": "JRPV+QH5, Jl. Setu Indah No.116, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451"
-            },
-            "geometry": {
-                "coordinates": [
-                106.84440682187312,
-                -6.362706651445592
-                ],
-                "type": "Point"
-            }
-            },
-            {
-            "type": "Feature",
-            "properties": {
-                "Kampus": "Universitas Indonesia",
-                "Kota": "Depok",
-                "Alamat": "Jl. Lingkar, Pondok Cina, Kecamatan Beji, Kota Depok, Jawa Barat 16424"
-            },
-            "geometry": {
-                "coordinates": [
-                106.82945673734423,
-                -6.36348929490029
-                ],
-                "type": "Point"
-            }
-            },
-            {
-            "type": "Feature",
-            "properties": {
-                "Kampus": "Universitas Pancasila",
-                "Kota": "Depok",
-                "Alamat": "Jl. Lenteng Agung Raya No.56, RT.1/RW.3, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630"
-            },
-            "geometry": {
-                "coordinates": [
-                106.83309844324879,
-                -6.339229571936642
-                ],
-                "type": "Point"
-            }
-            },
-            {
-            "type": "Feature",
-            "properties": {
-                "Kampus": "Universitas GUnadarma E",
-                "Alamat": "Jl. Komjen.Pol.M.Jasin No.9, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451",
-                "Kota": "Depok"
-            },
-            "geometry": {
-                "coordinates": [
-                106.8414956264466,
-                -6.353938149710828
-                ],
-                "type": "Point"
-            }
-            },
-            {
-            "type": "Feature",
-            "properties": {
-                "Kampus": "Universitas Politeknik Negri Media",
-                "Alamat": "Jl. Srengseng Sawah Raya No.17, RT.8/RW.3, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630",
-                "Kota": "Depok"
-            },
-            "geometry": {
-                "coordinates": [
-                106.82725599470155,
-                -6.346979827850845
-                ],
-                "type": "Point"
-            },
-            "id": 5
-            }
-        ]
-        }
+        // var place = {
+        // "type": "FeatureCollection",
+        // "features": [
+        //     {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "Kampus": "STT Terpadu Nurul Fikri B",
+        //         "Kota": "Depok",
+        //         "Alamat": "Jalan Lenteng Agung Raya No.20 RT.5/RW.1 Lenteng Agung, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12640"
+        //     },
+        //     "geometry": {
+        //         "coordinates": [
+        //         106.83268002101073,
+        //         -6.3528667632693185
+        //         ],
+        //         "type": "Point"
+        //     }
+        //     },
+        //     {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "Kampus": "STT Terpadu Nurul Fikri A",
+        //         "Kota": "Depok",
+        //         "Alamat": "JRPV+QH5, Jl. Setu Indah No.116, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451"
+        //     },
+        //     "geometry": {
+        //         "coordinates": [
+        //         106.84440682187312,
+        //         -6.362706651445592
+        //         ],
+        //         "type": "Point"
+        //     }
+        //     },
+        //     {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "Kampus": "Universitas Indonesia",
+        //         "Kota": "Depok",
+        //         "Alamat": "Jl. Lingkar, Pondok Cina, Kecamatan Beji, Kota Depok, Jawa Barat 16424"
+        //     },
+        //     "geometry": {
+        //         "coordinates": [
+        //         106.82945673734423,
+        //         -6.36348929490029
+        //         ],
+        //         "type": "Point"
+        //     }
+        //     },
+        //     {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "Kampus": "Universitas Pancasila",
+        //         "Kota": "Depok",
+        //         "Alamat": "Jl. Lenteng Agung Raya No.56, RT.1/RW.3, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630"
+        //     },
+        //     "geometry": {
+        //         "coordinates": [
+        //         106.83309844324879,
+        //         -6.339229571936642
+        //         ],
+        //         "type": "Point"
+        //     }
+        //     },
+        //     {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "Kampus": "Universitas GUnadarma E",
+        //         "Alamat": "Jl. Komjen.Pol.M.Jasin No.9, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451",
+        //         "Kota": "Depok"
+        //     },
+        //     "geometry": {
+        //         "coordinates": [
+        //         106.8414956264466,
+        //         -6.353938149710828
+        //         ],
+        //         "type": "Point"
+        //     }
+        //     },
+        //     {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "Kampus": "Universitas Politeknik Negri Media",
+        //         "Alamat": "Jl. Srengseng Sawah Raya No.17, RT.8/RW.3, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630",
+        //         "Kota": "Depok"
+        //     },
+        //     "geometry": {
+        //         "coordinates": [
+        //         106.82725599470155,
+        //         -6.346979827850845
+        //         ],
+        //         "type": "Point"
+        //     },
+        //     "id": 5
+        //     }
+        // ]
+        // }
 
-        L.geoJSON(place, {
-            pointToLayer: function (feature, latlng) {
-                return L.marker(latlng);
-            },
+        // L.geoJSON(place, {
+        //     pointToLayer: function (feature, latlng) {
+        //         return L.marker(latlng);
+        //     },
             
-            onEachFeature: function (feature, layer) {
-            layer.bindPopup(feature.properties.Kampus + '<br>' + feature.properties.Alamat + '<br>' + feature.properties.Kota);
-            }
+        //     onEachFeature: function (feature, layer) {
+        //     layer.bindPopup(feature.properties.Kampus + '<br>' + feature.properties.Alamat + '<br>' + feature.properties.Kota);
+        //     }
 
-        }).addTo(map);
+        // }).addTo(map);
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
